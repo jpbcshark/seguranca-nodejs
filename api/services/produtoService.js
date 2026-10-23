@@ -24,7 +24,7 @@ class ProdutoService {
             return newProduto;
         } catch (error) {
             console.error('Message error: ', error.message);
-            throw error;
+            throw Error;
         }
     }
 
